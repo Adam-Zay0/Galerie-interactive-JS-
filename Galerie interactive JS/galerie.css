@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#image {
+  width: 500px;
+  height: 300px;
+  border: 2px solid #ccc;
+  margin: 20px auto;
+  background-color: #f8f8f8;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.gallery img {
+  width: 100px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}

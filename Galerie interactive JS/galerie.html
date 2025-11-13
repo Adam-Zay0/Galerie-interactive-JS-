@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galerie interactive</title>
+  <link rel="stylesheet" href="galerie.html" />
+</head>
+<body>
+  <h2>Galerie de photos</h2>
+  
+  <div id="image">
+    Survolez une image ci-dessous pour l’afficher ici
+  </div>
+
+  <div class="gallery">
+    <img class="preview" src="img1.jpg" alt="Photo de montagne" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" src="img2.jpg" alt="Plage au coucher du soleil" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" src="img3.jpg" alt="Forêt verdoyante" onmouseover="upDate(this)" onmouseout="unDo()">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
